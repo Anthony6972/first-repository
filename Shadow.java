@@ -6,7 +6,7 @@ public class Shadow{
 	System.out.println("Local x = "+s.localVar());
 	System.out.println("Global x from method is: "+s.globalVar());
 	System.out.println("Global x from attribute is: "+s.x);
-	index.main(null);
+	Index.main(null);
    }
 
 	  int globalVar(){

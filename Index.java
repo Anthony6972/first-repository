@@ -12,7 +12,8 @@ public class Index{
     System.out.println("3. Exit");
     System.out.println("4. Shadowing");
     System.out.println("5. Overloading");
-    System.out.println("6. Exit");
+    System.out.println("6. First Array");
+    System.out.println("7. Exit");
 
     System.out.println();
 
@@ -42,9 +43,14 @@ public class Index{
         Shadow.main(null);
         break;
       case 5:
-      System.out.println("Overloading lab excercise");
-	  System.out.println();
-      Arithmetic.main(null);
+        System.out.println("Overloading lab excercise");
+	    System.out.println();
+        Arithmetic.main(null);
+      break;
+      case 6:
+	    System.out.println("First Array lab excercise");
+	    System.out.println();
+        FirstArray.main(null);
     }
     System.out.println();
 
